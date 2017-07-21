@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CollieAlert
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showBasicMessage(_ sender: Any) {
+        CollieAlert.show(message: "Mensagem para testar o tamanho do texto no alerta. Vamos ver se vai ficar legal.")
+    }
+    
+    @IBAction func showBlurredMessage(_ sender: Any) {
+        
+        CollieAlert.show(message: "Mensagem para testar o tamanho do texto no alerta. Vamos ver se vai ficar legal.", blurred: true)
+    }
 }
 

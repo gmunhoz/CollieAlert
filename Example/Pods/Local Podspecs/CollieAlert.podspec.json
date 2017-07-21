@@ -1,0 +1,22 @@
+{
+  "name": "CollieAlert",
+  "version": "0.1.0",
+  "summary": "A short description of CollieAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gmunhoz/CollieAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gmunhoz": "g.araujo.munhoz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gmunhoz/CollieAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CollieAlert/Classes/**/*"
+}

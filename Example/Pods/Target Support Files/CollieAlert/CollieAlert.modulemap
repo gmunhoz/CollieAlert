@@ -1,0 +1,6 @@
+framework module CollieAlert {
+  umbrella header "CollieAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

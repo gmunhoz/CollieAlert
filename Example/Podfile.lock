@@ -1,0 +1,16 @@
+PODS:
+  - CollieAlert (0.1.0)
+
+DEPENDENCIES:
+  - CollieAlert (from `../`)
+
+EXTERNAL SOURCES:
+  CollieAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CollieAlert: c05314f5aa4517c04188a2e84aea7dd74f26cca3
+
+PODFILE CHECKSUM: 8d1289bef0a508ac4306cafbc2049d9127d38bbe
+
+COCOAPODS: 1.2.1

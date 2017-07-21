@@ -1,25 +1,92 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CollieAlert_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CollieAlert" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="qdi-aN-ktc">
+                                <rect key="frame" x="16" y="50" width="288" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="SM0-O3-Zko"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p17-KW-nSm">
+                                <rect key="frame" x="16" y="117" width="288" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="GTt-Y3-Ics"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Show basic message">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showBasicMessage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ddm-Cf-aud"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="collie" translatesAutoresizingMaskIntoConstraints="NO" id="Rrj-2d-uKL">
+                                <rect key="frame" x="16" y="230" width="288" height="318"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxL-X7-MeW">
+                                <rect key="frame" x="16" y="169" width="288" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="vNQ-tx-rbW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Show blurred message">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showBlurredMessage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vgF-Xt-AdU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qdi-aN-ktc" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="0JX-zU-CxX"/>
+                            <constraint firstItem="Rrj-2d-uKL" firstAttribute="top" secondItem="oxL-X7-MeW" secondAttribute="bottom" constant="17" id="6gu-S8-Vl6"/>
+                            <constraint firstItem="p17-KW-nSm" firstAttribute="top" secondItem="qdi-aN-ktc" secondAttribute="bottom" constant="24" id="CR8-vo-mNS"/>
+                            <constraint firstItem="qdi-aN-ktc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="GqI-Zu-KMw"/>
+                            <constraint firstItem="oxL-X7-MeW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="JUr-SO-pxh"/>
+                            <constraint firstItem="Rrj-2d-uKL" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="OcU-GP-fKn"/>
+                            <constraint firstItem="p17-KW-nSm" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="ThH-9d-Uwn"/>
+                            <constraint firstItem="oxL-X7-MeW" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="oPV-1H-mvk"/>
+                            <constraint firstItem="qdi-aN-ktc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="qo7-GL-57b"/>
+                            <constraint firstItem="Rrj-2d-uKL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="rCK-aM-BOk"/>
+                            <constraint firstItem="oxL-X7-MeW" firstAttribute="top" secondItem="p17-KW-nSm" secondAttribute="bottom" constant="8" id="szO-cn-aT9"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Rrj-2d-uKL" secondAttribute="bottom" constant="20" id="wXQ-ao-PGK"/>
+                            <constraint firstItem="p17-KW-nSm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="yXG-v1-0Iy"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="120" y="34.859154929577464"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="collie" width="1280" height="970"/>
+    </resources>
 </document>
