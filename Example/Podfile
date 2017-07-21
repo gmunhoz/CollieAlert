@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CollieAlert_Example' do
+  pod 'CollieAlert', :path => '../'
+
+  target 'CollieAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
