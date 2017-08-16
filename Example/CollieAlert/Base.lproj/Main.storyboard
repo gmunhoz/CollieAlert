@@ -80,6 +80,9 @@
                             <constraint firstItem="p17-KW-nSm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="yXG-v1-0Iy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Rrj-2d-uKL" id="kxu-fj-NBN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

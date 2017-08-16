@@ -16,6 +16,8 @@
 		807AA50B701A3FC482726ED6DE75DC83 /* Pods-CollieAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008211BA05AB057355DA71F8DF75A4DB /* Pods-CollieAlert_Tests-dummy.m */; };
 		8A097443E0950A6301205846 /* CollieAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D55B458A00574FCC14C /* CollieAlert.swift */; };
 		8A09747269E1483CD71EBCF8 /* CollieAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0972FE34DF7915BE0FFB34 /* CollieAlertView.swift */; };
+		8A097DA7B06BBB3D27C102C0 /* CollieAlertStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0977C9D3801E2D3EC1D6CF /* CollieAlertStyle.swift */; };
+		8A097EC0C28FFF6879C05331 /* CollieAlertDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097E3BECF51F84428CBAD6 /* CollieAlertDuration.swift */; };
 		B07CB6C043582B8C0F1E9B84B828AF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C40AEB15B3C8FF656AB5D3690793428B /* CollieAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BC020159B62396215ED1190DACE950 /* CollieAlert-dummy.m */; };
 /* End PBXBuildFile section */
@@ -46,7 +48,9 @@
 		7339C7CD2EC033D4407381B7EEB5E7DE /* Pods-CollieAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollieAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		85B45A18E43A6EE853C3DA793BB78EDC /* Pods-CollieAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollieAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8A0972FE34DF7915BE0FFB34 /* CollieAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollieAlertView.swift; sourceTree = "<group>"; };
+		8A0977C9D3801E2D3EC1D6CF /* CollieAlertStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollieAlertStyle.swift; sourceTree = "<group>"; };
 		8A097D55B458A00574FCC14C /* CollieAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollieAlert.swift; sourceTree = "<group>"; };
+		8A097E3BECF51F84428CBAD6 /* CollieAlertDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollieAlertDuration.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A40427661A134DC7F8C2229832326EEB /* Pods-CollieAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollieAlert_Example-resources.sh"; sourceTree = "<group>"; };
 		A589F380FA07A93FA3A6936D3DECC353 /* Pods-CollieAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollieAlert_Example-dummy.m"; sourceTree = "<group>"; };
@@ -221,6 +225,8 @@
 			children = (
 				8A097D55B458A00574FCC14C /* CollieAlert.swift */,
 				8A0972FE34DF7915BE0FFB34 /* CollieAlertView.swift */,
+				8A097E3BECF51F84428CBAD6 /* CollieAlertDuration.swift */,
+				8A0977C9D3801E2D3EC1D6CF /* CollieAlertStyle.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -359,6 +365,8 @@
 				C40AEB15B3C8FF656AB5D3690793428B /* CollieAlert-dummy.m in Sources */,
 				8A097443E0950A6301205846 /* CollieAlert.swift in Sources */,
 				8A09747269E1483CD71EBCF8 /* CollieAlertView.swift in Sources */,
+				8A097EC0C28FFF6879C05331 /* CollieAlertDuration.swift in Sources */,
+				8A097DA7B06BBB3D27C102C0 /* CollieAlertStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

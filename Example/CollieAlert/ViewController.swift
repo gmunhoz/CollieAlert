@@ -11,9 +11,13 @@ import CollieAlert
 
 class ViewController: UIViewController {
 
+    let exampleMessage = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, elementum sit amet nulla et, dictum sollicitudin libero. Nulla egestas metus vitae finibus consequat. Cras sollicitudin eros sit amet fermentum congue. Aenean at mattis orci. Duis volutpat leo et sem hendrerit mattis."
+
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupGestures()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,12 +26,26 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showBasicMessage(_ sender: Any) {
-        CollieAlert.show(message: "Mensagem para testar o tamanho do texto no alerta. Vamos ver se vai ficar legal.")
+        CollieAlert.show(message: exampleMessage)
     }
     
     @IBAction func showBlurredMessage(_ sender: Any) {
-        
-        CollieAlert.show(message: "Mensagem para testar o tamanho do texto no alerta. Vamos ver se vai ficar legal.", blurred: true)
+        CollieAlert.show(message: exampleMessage, style: .blurred(style: .light))
     }
+
+}
+
+private extension ViewController {
+
+    func setupGestures() {
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped))
+        imageView.addGestureRecognizer(tapRecognizer)
+        imageView.isUserInteractionEnabled = true
+    }
+
+    @objc func imageTapped() {
+        print("Tapped!")
+    }
+
 }
 

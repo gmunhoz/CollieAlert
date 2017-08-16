@@ -1,55 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="182b3b65-8b71-4ff8-a340-7b315cca7817" name="Default" comment="Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CollieAlert/Images.xcassets/collie.imageset/collie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Example.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CollieAlert.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CollieAlert/Images.xcassets/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CollieAlert/Images.xcassets/collie.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/CollieAlert.podspec.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/CollieAlert-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/CollieAlert-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/CollieAlert-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/CollieAlert.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/CollieAlert.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example-acknowledgements.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example-acknowledgements.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example-frameworks.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example-resources.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example.debug.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Example/Pods-CollieAlert_Example.release.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests-acknowledgements.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests-acknowledgements.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests-frameworks.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests-resources.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests.debug.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-CollieAlert_Tests/Pods-CollieAlert_Tests.release.xcconfig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollieAlert/Classes/ReplaceMe.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CollieAlert.xcodeproj/xcshareddata/xcschemes/CollieAlert-Example.xcscheme" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollieAlert.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/CollieAlert.xcodeproj/project.pbxproj" />
+    <list default="true" id="182b3b65-8b71-4ff8-a340-7b315cca7817" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertDuration.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertStyle.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift" afterPath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift" afterPath="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollieAlert/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/CollieAlert/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollieAlert/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/CollieAlert/Images.xcassets/AppIcon.appiconset/Contents.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollieAlert/ViewController.swift" afterPath="$PROJECT_DIR$/CollieAlert/ViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,14 +18,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_aebc531b9296b7ca4efd8b52c808e6744796c515" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CollieAlert.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+            <state relative-caret-position="-142">
+              <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
               <folding>
                 <element signature="e#51#63#0" expanded="true" />
               </folding>
@@ -73,11 +33,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CollieAlert/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIKit.UITapGestureRecognizer.swift" pinned="false" current-in-tab="false">
+        <entry file="mock:///UIKit.UITapGestureRecognizer.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIKit.UIGestureRecognizer.swift" pinned="false" current-in-tab="false">
+        <entry file="mock:///UIKit.UIGestureRecognizer.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollieAlertStyle.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertStyle.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="85" lean-forward="false" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+              <folding>
+                <element signature="e#51#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollieAlertDuration.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertDuration.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -86,28 +88,8 @@
       <file leaf-file-name="CollieAlertView.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollieAlert-dummy.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/CollieAlert-dummy.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CollieAlert/ViewController.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" column="132" lean-forward="false" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
+            <state relative-caret-position="15">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,15 +97,28 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>should</find>
+      <find>shouldDismiss</find>
+      <find>shouldD</find>
+      <find>changedPos</find>
+      <find>blurView</find>
+      <find>setupBack</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/CollieAlert/AppDelegate.swift" />
+        <option value="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertDuration.swift" />
         <option value="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift" />
         <option value="$PROJECT_DIR$/CollieAlert/ViewController.swift" />
         <option value="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift" />
+        <option value="$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertStyle.swift" />
       </list>
     </option>
   </component>
@@ -154,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,7 +246,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,29 +336,46 @@
       <updated>1500602391255</updated>
       <workItem from="1500602395361" duration="2445000" />
       <workItem from="1500605332129" duration="5368000" />
-      <workItem from="1500637228827" duration="437000" />
+      <workItem from="1500637228827" duration="735000" />
+      <workItem from="1500851166408" duration="7502000" />
+      <workItem from="1502754466647" duration="4411000" />
+      <workItem from="1502843023168" duration="11399000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1500637711206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500637711206</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created base class to display alerts">
+      <created>1500637951302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500637951302</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8250000" />
+    <option name="totallyTimeSpent" value="31860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20492454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26284876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29809105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -407,21 +419,115 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Created base class to display alerts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created base class to display alerts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift</url>
-          <line>141</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollieAlert/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollieAlert/AppDelegate.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/CollieAlert/CollieAlert-dummy.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollieAlert/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="132" lean-forward="false" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollieAlert/AppDelegate.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -452,24 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#51#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollieAlert/ViewController.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="132" lean-forward="false" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
           <folding>
             <element signature="e#51#63#0" expanded="true" />
           </folding>
@@ -488,15 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +583,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollieAlert/AppDelegate.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertDuration.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollieAlert/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlert.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CollieAlert/Classes/CollieAlertStyle.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="85" lean-forward="false" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
